@@ -2072,13 +2072,13 @@ h3 {
 
 
 
-@media (min-width: 1200px) and (max-width: 1500px) {
+@media (min-width: 1200px) and (max-width: 1900px) {
 
   /* line 82, ../../Arafath/CL/December/234. Finance/HTML/scss/_header.scss */
 
   .header-area .main-header-area .Appointment .phone_num a {
 
-    font-size: 13px;
+    font-size: 13px !important;
 
   }
 
@@ -2224,7 +2224,7 @@ h3 {
 
   color: #fff;
 
-  font-size: 15px;
+  font-size: 13px;
 
   text-transform: capitalize;
 
@@ -13858,4 +13858,14 @@ body{
 
 #container_small{
   max-width: 720px;
+}
+
+.header-area .main-header-area .Appointment .phone_num a {
+
+  font-size: 13px !important;
+
+}
+
+ul.navigation>li>a{
+  font-size: 13px;
 }
